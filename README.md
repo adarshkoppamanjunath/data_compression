@@ -4,6 +4,7 @@ RLE Algorithm to compress and decompress a given data buffer of bytes.
 ## Repository Structure
 ```
 Data-Compression/
+├── .github/workflows/manual.yaml  # Trigger pytest on test_data_compression on any merge to main
 ├── data_compress.py          # Compression interface with RLE implemented
 ├── test_data_compression.py  # Tests using pytest for RLE functionality
 ├── input_data.py             # Test data, add input data to the test_data dict variable
@@ -24,5 +25,8 @@ Data-Compression/
 - You need to have docker installed.
 - Run `docker build -t data_compression .` from `data_compression` folder.
 - Run `docker run --rm data_compression` from `data_compression` folder.
+
+## GitHub Action
+- Manually trigger .github/workflows/manual.yaml  to see the results
 
 
