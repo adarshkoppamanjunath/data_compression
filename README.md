@@ -2,15 +2,19 @@
 RLE Algorithm to compress and decompress a given data buffer of bytes.
 
 ## Repository Structure
-Data-Compression/ 
-│ │── data_compress.py # Compression interface with RLE implemented. 
-│ │── test_data_compression.py # pytest used to test RLE
-│ │── input_data.py # add your testdata here. Append input to test_data dict variable. 
-│── test_validation_files/ # Consists file for uncompressed and compressed data.
-│── README.md # Project documentation
-│── requirements.txt # Required libraries
-│── .gitignore # Files to exclude from git repo
-│── .dockerfile # To create image and run it in container. 
+Data-Compression/
+│
+├── data_compress.py           # Compression interface with RLE implemented
+├── test_data_compression.py   # Tests using pytest for RLE functionality
+├── input_data.py              # Test data, add input data to the test_data dict variable
+│
+├── test_validation_files/     # Contains uncompressed and compressed data for validation
+│
+├── README.md                  # Documentation of the project
+├── requirements.txt           # List of required libraries for the project
+├── .gitignore                 # Files to exclude from git repository (e.g., temporary files, logs)
+├── .dockerfile                # Dockerfile to create image and run the container
+
 
 ## To use this locally,
 - git clone https://github.com/adarshkoppamanjunath/data_compression.git

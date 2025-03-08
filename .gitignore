@@ -1,3 +1,3 @@
 __pycache__/
-test_validation_files/
+test_validation_files/*.bin
 .pytest_cache/
